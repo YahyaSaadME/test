@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.get("/",(req,res)=>{
+app.get("/w",(req,res)=>{
   res.send("Welcome")
 })
 // Start the server
